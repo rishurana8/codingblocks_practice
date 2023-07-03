@@ -1,0 +1,13 @@
+.big{
+    font-size:25px;
+}
+#one{
+    background-color: aqua;
+}
+input[type="text"]{
+    height:30px;
+}
+
+h2~p{
+    color:red;
+}  /* yeh jo hai section wale h2 or para par nahi lagega */
