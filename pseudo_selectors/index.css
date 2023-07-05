@@ -11,7 +11,7 @@
     font-weight: bold;
 }
 
-.box:active{
+.box:active{ /* these are called sudo selectors because active naam ki koi class nahi hai */
     height:100px;
     width:100px;
     font-size:25pt;
