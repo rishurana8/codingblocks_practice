@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .navbar{
+        background-color: black;
+    }
+    /* jab bhi hum float:left karte hai toh jo background mai se jo color hai woh overflow ho jaat hai */
+    .navbar li{
+        float:left;
+        list-style: none;  /*iss se hota kya hai ki li mai jo dots lage hota hai woh hat jaate hai*/
+       
+    }
+    .navbar li a{
+        padding: 3px 3px;
+        text-decoration: none;
+        color : white;
+    }
+    .navbar ul{
+        overflow: auto; /*yeh isliye kar rahe hai taki color aa jaye navbar mai*/
+    }
+</style>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
